@@ -1,9 +1,9 @@
 function generator() {
     while (w==x || w==y || w==z || x==y || x==z || y==z) {
-        var w= Math.floor((Math.random()*35)+1);
-        var x= Math.floor((Math.random()*35)+1);
-        var y= Math.floor((Math.random()*35)+1);
-        var z= Math.floor((Math.random()*35)+1);
+        var w= Math.floor((Math.random()*90)+1);
+        var x= Math.floor((Math.random()*90)+1);
+        var y= Math.floor((Math.random()*90)+1);
+        var z= Math.floor((Math.random()*90)+1);
     }
     console.log(w,x,y,z);
     document.getElementById('divImage').innerHTML=` 
