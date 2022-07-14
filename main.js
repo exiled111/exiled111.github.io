@@ -5,7 +5,7 @@ function generator() {
         var y= Math.floor((Math.random()*90)+1);
         var z= Math.floor((Math.random()*90)+1);
     }
-    console.log(w,x,y,z);
+    console.log('Image sequence:',w,x,y,z);
     document.getElementById('divImage').innerHTML=` 
     <div class="row">
         <div class="column">
@@ -23,6 +23,6 @@ function generator() {
             <img src="img/${z}.jpg" alt="Forest" style="width:100%">
         </div>
     </div>
-    
+    <!-- <center><p style="color: lightgrey; margin-top:-20px">#HausOfRandom</p></center>  -->
     `;
 }

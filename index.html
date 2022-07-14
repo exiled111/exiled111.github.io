@@ -19,12 +19,27 @@
                 flex: 33.33%;
                 padding:-4px;
             }
+
+            img {
+                pointer-events: none;
+            }
+
+            button {
+                cursor: pointer;
+            }
+
             </style>
     </head>
     <body style="background-color: black;" onload="generator();">
         <div style="margin:20px;" >
-            <button onclick="generator()">Generate New</button> 
+            <div>
+                <img src="HoR.png" style="margin-left:-10px;"></img> 
+            </div>
+            <button onclick="generator()" style="border:2px solid white;background-color: black;">
+                <img src="Generate.png" width="200px" style="margin-top: 5px;"></img> 
+            </button>
             <br>
+            
             <br>
             <br>
             <div id="divImage" style="width:100%;height:100%;background-color: white;"></div>
@@ -34,8 +49,8 @@
             Screenshot & share on twitter using <a href="https://twitter.com/search?q=%23hausofrandom&src=typed_query" style="color:rgb(184, 179, 179);">#HausOfRandom</a> !
             <br>
             <br>
-            <br>
             Created by <a href="https://twitter.com/das_engineer_" style="color:rgb(184, 179, 179);">@das_engineer_</a>
         </div>
+        
     </body>
 </html>
